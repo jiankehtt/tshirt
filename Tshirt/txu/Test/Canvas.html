@@ -6,15 +6,19 @@
 
 <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="c.js"></script>
+<script type="text/javascript" src="canvas2image.js"></script>
+<script type="text/javascript" src="base64.js"></script>
 
 <script type="text/javascript">
   $(function(){
 	  drawImage(); 
   });
-
 </script>
 </head>
 <body>
-<canvas id="c1"></canvas>
+<img id="img" src="t1.png" >
+<canvas id="c1" width="205px" height ="205px" ></canvas>
+
+<img id="img2" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMD…KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q=="></img>
 </body>
 </html>
