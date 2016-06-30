@@ -2,7 +2,7 @@
 
       $timestamp = $_GET['timestamp'];
       $nonce     = $_GET['nonce'];
-      $token     = $_GET['token'];
+      $token     = 'myTshirtToken';
       $signature = $_GET['signature'];
       $array     = array( $timestamp,$nonce,$token );
       sort( $array );

@@ -26,7 +26,7 @@ class MenuUtil
                 ), array(
                     'name' => urlencode('我'),
                     'type' => 'view',
-                    'url' => 'http://www.baidu.com'
+                    'url' => 'http://www.xxvtcgd.com/Tshirt/index.php/Home/Index'
                 )
             )
         );
